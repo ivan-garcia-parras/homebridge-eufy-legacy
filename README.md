@@ -1,0 +1,1 @@
+# homebridge-eufy-legacy
