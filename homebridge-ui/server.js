@@ -15,13 +15,13 @@ class UiServer extends plugin_ui_utils_1.HomebridgePluginUiServer {
     constructor() {
         super();
         this.accessories = [];
-        this.storagePath = this.homebridgeStoragePath + '/eufysecurity';
+        this.storagePath = this.homebridgeStoragePath + '/eufylegacy';
         this.storedAccessories_file = this.storagePath + '/accessories.json';
         this.logZipFilePath = this.storagePath + '/logs.zip';
         this.eufyClient = null;
         const plugin = require('../package.json');
         this.log = bunyan_1.default.createLogger({
-            name: '[EufySecurity-' + plugin.version + ']',
+            name: '[EufyLegacy-' + plugin.version + ']',
             hostname: '',
             streams: [{
                     level: 'debug',

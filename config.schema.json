@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "EufySecurity",
+  "pluginAlias": "EufyLegacy",
   "pluginType": "platform",
   "singular": true,
   "customUi": true

@@ -3,8 +3,8 @@ import { Accessory } from '../../app/accessory';
 
 export const DEFAULT_CACHED_ACCESSORIES: CachedAccessory[] = [
   {
-    plugin: 'homebridge-eufy-security',
-    platform: 'EufySecurity',
+    plugin: 'homebridge-eufy-legacy',
+    platform: 'EufyLegacy',
     context: {
       device: {
         displayName: 'Homebase',
@@ -19,8 +19,8 @@ export const DEFAULT_CACHED_ACCESSORIES: CachedAccessory[] = [
     services: [],
   },
   {
-    plugin: 'homebridge-eufy-security',
-    platform: 'EufySecurity',
+    plugin: 'homebridge-eufy-legacy',
+    platform: 'EufyLegacy',
     context: {
       device: {
         displayName: 'Solo Camera Station',
@@ -35,8 +35,8 @@ export const DEFAULT_CACHED_ACCESSORIES: CachedAccessory[] = [
     services: [],
   },
   {
-    plugin: 'homebridge-eufy-security',
-    platform: 'EufySecurity',
+    plugin: 'homebridge-eufy-legacy',
+    platform: 'EufyLegacy',
     context: {
       device: {
         displayName: 'Doorbell',
@@ -51,8 +51,8 @@ export const DEFAULT_CACHED_ACCESSORIES: CachedAccessory[] = [
     services: [],
   },
   {
-    plugin: 'homebridge-eufy-security',
-    platform: 'EufySecurity',
+    plugin: 'homebridge-eufy-legacy',
+    platform: 'EufyLegacy',
     context: {
       device: {
         displayName: 'Solo Camera 2K',
@@ -67,8 +67,8 @@ export const DEFAULT_CACHED_ACCESSORIES: CachedAccessory[] = [
     services: [],
   },
   {
-    plugin: 'homebridge-eufy-security',
-    platform: 'EufySecurity',
+    plugin: 'homebridge-eufy-legacy',
+    platform: 'EufyLegacy',
     context: {
       device: {
         displayName: 'Indoor Camera',
@@ -521,7 +521,7 @@ export const DEFAULT_STORED_ACCESSORIES: Accessory[] = [
 ];
 
 export const DEFAULT_PLUGIN_CONFIG: PluginConfig = {
-  platform: 'EufySecurity',
+  platform: 'EufyLegacy',
   username: 'totally@random.mail',
   password: 'verysecretpassword',
   country: 'UA',

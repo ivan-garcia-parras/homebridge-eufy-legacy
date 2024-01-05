@@ -97,7 +97,7 @@ export class PluginService extends EventTarget {
 
       if (configs.length > 0) {
         this.config = configs[0];
-        this.config['platform'] = 'EufySecurity';
+        this.config['platform'] = 'EufyLegacy';
         return Promise.resolve(configs[0]);
       } else {
         return Promise.reject('Could not get Platform config');

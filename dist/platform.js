@@ -55,7 +55,7 @@ class EufySecurityPlatform {
         this.activeAccessoryIds = [];
         this.stations = [];
         this.config = config;
-        this.eufyPath = this.api.user.storagePath() + '/eufysecurity';
+        this.eufyPath = this.api.user.storagePath() + '/eufylegacy';
         if (!fs_1.default.existsSync(this.eufyPath)) {
             fs_1.default.mkdirSync(this.eufyPath);
         }
@@ -83,7 +83,7 @@ class EufySecurityPlatform {
             });
         }
         this.log = bunyan_1.default.createLogger({
-            name: '[EufySecurity-' + plugin.version + ']',
+            name: '[EufyLegacy-' + plugin.version + ']',
             hostname: '',
             streams: logStreams,
             serializers: bunyan_debug_stream_1.default.stdSerializers,

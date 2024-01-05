@@ -79,7 +79,7 @@ export class EufySecurityPlatform implements DynamicPlatformPlugin {
   ) {
     this.config = config as EufySecurityPlatformConfig;
 
-    this.eufyPath = this.api.user.storagePath() + '/eufysecurity';
+    this.eufyPath = this.api.user.storagePath() + '/eufylegacy';
 
     if (!fs.existsSync(this.eufyPath)) {
       fs.mkdirSync(this.eufyPath);
@@ -113,7 +113,7 @@ export class EufySecurityPlatform implements DynamicPlatformPlugin {
     }
 
     this.log = bunyan.createLogger({
-      name: '[EufySecurity-' + plugin.version + ']',
+      name: '[EufyLegacy-' + plugin.version + ']',
       hostname: '',
       streams: logStreams,
       serializers: bunyanDebugStream.stdSerializers,

@@ -1,9 +1,9 @@
 /**
  * This is the name of the platform that users will use to register the plugin in the Homebridge config.json
  */
-export declare const PLATFORM_NAME = "EufySecurity";
+export declare const PLATFORM_NAME = "EufyLegacy";
 /**
  * This must match the name of your plugin as defined the package.json
  */
-export declare const PLUGIN_NAME = "homebridge-eufy-security";
+export declare const PLUGIN_NAME = "homebridge-eufy-legacy";
 //# sourceMappingURL=settings.d.ts.map
