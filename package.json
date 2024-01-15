@@ -58,7 +58,7 @@
     "@homebridge/plugin-ui-utils": "0.0.19",
     "bunyan": "1.8.15",
     "bunyan-debug-stream": "2.0.1",
-    "eufy-security-client": "github:ivan-garcia-parras/eufy-security-client#feature/v2.8.1",
+    "eufy-security-client": "2.9.1",
     "ffmpeg-for-homebridge": "0.1.4",
     "pick-port": "1.0.1",
     "rotating-file-stream": "3.0.4",
