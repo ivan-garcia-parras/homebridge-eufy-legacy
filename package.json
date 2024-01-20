@@ -1,12 +1,12 @@
 {
   "displayName": "Homebridge Eufy Legacy",
   "name": "homebridge-eufy-legacy",
-  "version": "2.3.1",
+  "version": "4.0.0",
   "description": "Control Eufy Security from homebridge.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/homebridge-eufy-security/plugin.git"
+    "url": "git://github.com/ivan-garcia-parras/homebridge-eufy-legacy.git"
   },
   "funding": [
     {
@@ -23,7 +23,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/homebridge-eufy-security/plugin/issues"
+    "url": "https://github.com/ivan-garcia-parras/homebridge-eufy-legacy/issues"
   },
   "engines": {
     "node": ">=18.16.0",
@@ -116,6 +116,6 @@
       "ban-ts-comment": 0
     }
   },
-  "homepage": "https://github.com/homebridge-eufy-security/plugin/wiki",
+  "homepage": "https://github.com/ivan-garcia-parras/homebridge-eufy-legacy/wiki",
   "author": "homebridge-eufy-legacy"
 }
