@@ -45,7 +45,7 @@ export const DeviceImage = new Map<DeviceType, { image: string; padding: string 
   [DeviceType.SOLO_CAMERA_SPOTLIGHT_1080, { image: 'solooutdoorcamc24_large.jpg', padding: '15px' }],
   [DeviceType.SOLO_CAMERA_SPOTLIGHT_2K, { image: 'solooutdoorcamc24_large.jpg', padding: '15px' }],
   [DeviceType.SOLO_CAMERA_SPOTLIGHT_SOLAR, { image: 'solocams40_large.jpg', padding: '10px' }],
-  [DeviceType.SOLO_CAMERA_SOLAR, { image: 'solocams220_large.jpg', padding: '10px' }],
+  [DeviceType.SOLO_CAMERA_SOLAR, { image: 'solocams220.png', padding: '10px' }],
   [DeviceType.SMART_DROP, { image: 'smartdrop_t8790_large.jpg', padding: '20px' }],
   [DeviceType.BATTERY_DOORBELL_PLUS, { image: 'batterydoorbell2k_large.jpg', padding: '0px' }],
   [DeviceType.DOORBELL_SOLO, { image: 'wireddoorbelldual_large.jpg', padding: '0px' }],
